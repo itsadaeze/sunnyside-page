@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 130px;
+    height: 35px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.container {
+    background-image: url("./desktop/image-header.jpg");
+    width: 1349px;
+    height: 100vh;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    font-family: Barlow;
+    color: white;
+}
+
+ul li button {
+    list-style: none;
+    font-family: Fraunces;
+    color: black;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    border: white;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-top: 9rem;
+}
+
+.arrow-down {
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+
+.main-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    width: 40%;
+    height: 30vh;
+}
+
+.container2 h2 {
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 60px;
+    width: 80%;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-left: 3.5rem;
+    margin-top: 9rem;
+}
+
+.container2 p {
+    font-family: Barlow;
+    font-weight: bold;
+    width: 92%;
+    padding: 0rem 0rem 1rem 1rem;
+    margin-left: 3.5rem;
+    font-size: 18px;
+}
+
+.container2 a {
+    text-decoration: none;
+    font-family: Fraunces;
+    font-weight: bolder;
+    width: 60%;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-left: 3.5rem;
+    font-size: 20px;
+}
+
+.main-container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+    width: 40%;
+    height: 30vh;
+}
+
+.container3 h2 {
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 56px;
+    width: 90%;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 9rem;
+}
+
+.container3 p {
+    font-family: Barlow;
+    font-weight: bold;
+    width: 80%;
+    padding: 0rem 0rem 1rem 1rem;
+    font-size: 18px;
+}
+
+.container3 a {
+    text-decoration: none;
+    font-family: Fraunces;
+    font-weight: bolder;
+    width: 60%;
+    padding: 1rem 0rem 1rem 1rem;
+    font-size: 20px;
+}
+
+.main-maincontainer4 {
+    display: flex;
+}
+
+.main-container4 {
+    background-image: url("./desktop/image-graphic-design.jpg");
+    width: 638px;
+    height: 580px;
+}
+
+.main-container4 h2 {
+    margin-top: 0;
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 23rem;
+    margin-left: 8rem;
+}
+
+.main-container4 p {
+    font-family: Barlow;
+    font-size: 20px;
+    margin-left: 5rem;
+    text-align: center;
+    width: 70%;
+}
+
+.main-container5 {
+    background-image: url("./desktop/image-photography.jpg");
+    width: 710px;
+    height: 580px;
+}
+
+.main-container5 h2 {
+    margin-top: 0;
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 23rem;
+    margin-left: 3rem;
+}
+
+.main-container5 p {
+    font-family: Barlow;
+    font-size: 20px;
+    margin-left: 5rem;
+    text-align: center;
+    margin-left: 4rem;
+    width: 70%;
+}
+
+.main-container6 img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 7rem;
+}
+
+.main-maincontainer6 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 13rem;
+}
+
+.human-beingcontainer h1 {
+    color: gray;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-top: 9rem;
+}
+
+.main-container6 p {
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    width: 90%;
+    line-height: 28px;
+}
+
+.main-container6 h4 {
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 15px;
+    line-height: 3px;
+}
+
+.main-container6 h6 {
+    text-align: center;
+    font-family: Barlow;
+    font-size: 10px;
+    color: gray;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 350px;
+    height: 400px;
+}
+
+.links-containers {
+    background-color: hsl(168, 34%, 41%);
+}
+
+.links-containers h5 {
+    text-align: center;
+    font-family: Barlow;
+    color: hsl(168, 95%, 7%);
+    padding: 5rem 0rem 0rem 0rem;
+    font-size: 20px;
+}
+
+.last-links ul {
+    margin-left: 30rem;
+    margin-top: 0;
+}
+
+.last-links {
+    display: flex;
+}
+
+.last-links ul li {
+    margin-left: 1rem;
+}
